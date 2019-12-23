@@ -1,6 +1,7 @@
 {
   "allowSyntheticDefaultImports": true,
   "compilerOptions": {
+    "types": ["jest" ],
     "outDir": "dist",
     "target": "es5",
     "declaration": true,
