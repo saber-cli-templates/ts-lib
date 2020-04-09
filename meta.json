@@ -11,6 +11,11 @@
       "label": "Project description",
       "default": "A demo project"
     },
+    "isNodeJs": {
+      "type": "confirm",
+      "label": "Is this a NodeJs project",
+      "default": false
+    },
     "author": {
       "type": "string",
       "label": "Author"

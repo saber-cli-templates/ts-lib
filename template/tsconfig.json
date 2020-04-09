@@ -1,7 +1,7 @@
 {
   "allowSyntheticDefaultImports": true,
   "compilerOptions": {
-    "types": ["jest" ],
+    "types": {{#if isNodeJs}}["jest", "node"]{{else}}["jest"]{{/if}},
     "outDir": "dist",
     "target": "es5",
     "declaration": true,
